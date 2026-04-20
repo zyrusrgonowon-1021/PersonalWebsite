@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Zyrus Alexis Gonowon, Computer Science graduate">
+    <title>Zyrus Alexis Gonowon - Software Developer</title>
+    <link rel="icon" href="pic.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="selfweb.css">
+</head>
+<body class="frontpage">
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Zyrus Alexis Gonowon</h1>
+            <p class="header-subtitle">Software Developer | Computer Science Graduate</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="hero-section">
+            <div class="profile-section">
+                <img src="pic.jpg" alt="Profile Picture" class="profile-image">
+            </div>
+            
+            <div class="bio-section">
+                <p class="bio-text">
+                    Dedicated software developer with a Bachelor's Degree in Computer Science (2023). 
+                    Specializing in full-stack web development, automation solutions, and emerging technologies. 
+                    I bring a problem-solving mindset and passion for writing clean, efficient code to every project.
+                </p>
+            </div>
+        </div>
+        <div class="tab">
+            <button class="tab-btn active" onclick="openTab(event,'project')">Projects</button>
+            <button class="tab-btn" onclick="openTab(event, 'aboutmyself')">About Me</button>
+            <button class="tab-btn" onclick="openTab(event, 'contact')">Contact</button>
+        </div>
+        
+        <div class="tab-content active" id="project">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <a href="https://zyrusrgonowon-1021.github.io/index.html/" class="project-link">Resume Generator</a>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="aboutmyself">
+            <h2>Skills & Interests</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Technical Skills</h3>
+                    <ul class="skills-list">
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Full-Stack Web Development</li>
+                        <li>Automation Development</li>
+                        <li>Software Problem Solving</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Professional Interests</h3>
+                    <ul class="skills-list">
+                        <li>Emerging Web Technologies</li>
+                        <li>Software Architecture</li>
+                        <li>Continuous Learning</li>
+                        <li>Collaborative Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-section">
+                <p class="contact-email"><strong>Email:</strong> <a href="mailto:zyrusrgonowon@gmail.com">zyrusrgonowon@gmail.com</a></p>
+                <p class="contact-phone"><strong>Phone:</strong> +63 905 747 1654</p>
+                <p class="contact-social"><strong>Social:</strong> <a href="https://www.facebook.com/zyrusalexis.gonowon/" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="selfweb.js" defer></script>
+</body> 
+</html>
