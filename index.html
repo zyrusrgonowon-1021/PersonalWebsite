@@ -76,8 +76,29 @@
                 <p class="contact-social"><strong>Social:</strong> <a href="https://www.facebook.com/zyrusalexis.gonowon/" target="_blank" rel="noopener noreferrer">Facebook</a></p>
             </div>
         </div>
+        <div class="chatbot-container" id="chatbot">
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open chat">
+        <span class="chat-icon">💬</span>
+        <span class="close-icon">✕</span>
+    </button>
+    
+    <div class="chatbot-window" id="chatbotWindow">
+        <div class="chatbot-header">
+            <span>Chat with Zyrus's AI Assistant</span>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="message bot-message">
+                Hi! I'm Zyrus's virtual assistant. Ask me about his experience, skills, hobbies, or anything else!
+            </div>
+        </div>
+        <div class="chatbot-input-area">
+            <input type="text" id="chatbotInput" placeholder="Type your question..." autocomplete="off">
+            <button id="chatbotSend" aria-label="Send message">➤</button>
+        </div>
+    </div>
+</div>
     </div>
     
     <script src="selfweb.js" defer></script>
-</body> 
+</body>
 </html>
